@@ -49,9 +49,9 @@ Dedique-se ao teste com capricho, caso você não seja selecionado mas tenha um 
      - Employee (TextField) | Last Login (DateField) | Department (SelectField) | Status (SelectField)
 
    - Chart relacionado aos dados da tabela
-   - Alterar o título "Why do you create a startup?" por "Employees by department".
-   - Alterar o subtítulo "Trends" por "Departments".
-   - Contar quantos funcionários existem em cada departamento e apresentar no gráfico.
+     - Alterar o título "Why do you create a startup?" por "Employees by department".
+     - Alterar o subtítulo "Trends" por "Departments".
+     - Contar quantos funcionários existem em cada departamento e apresentar no gráfico.
 
 ## Dicas
 
