@@ -2,7 +2,7 @@
 
 ## Informações importantes
 
-Dedique-se ao teste com capricho, caso você não seja selecionado mas tenha um ótimo desempenho, seu perfil estará no topo da lista para futuras vagas na XP.
+Dedique-se ao teste com toda atenção, caso você não seja selecionado mas tenha um ótimo desempenho, seu perfil estará no topo da lista para futuras vagas na XP.
 
 ## Objetivo do teste
 
@@ -20,7 +20,9 @@ Dedique-se ao teste com capricho, caso você não seja selecionado mas tenha um 
 
 1. Crie uma conta gratuita no CodeSandbox
 
-   - Realize o fork desse projeto com seu GitHub.
+   - Realize o fork desse projeto.
+
+   - Você pode exportar e integrar esse projeto com seu GitHub e trabalhar de forma local.
 
 2. Abra o figma para referencia [link](<https://www.figma.com/design/H1jdB3cIcsILX4BFzWQRcW/Hiring-Front-end---UI-Test-(Community)>)
 
