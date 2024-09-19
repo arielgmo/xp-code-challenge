@@ -20,7 +20,7 @@ Dedique-se ao teste com toda atenção, caso você não seja selecionado mas ten
 
 1. Crie uma conta gratuita no CodeSandbox
 
-   - Realize o fork desse projeto.
+   - Realize o fork desse projeto em sua conta do CodeSandbox.
 
    - Você pode exportar e integrar esse projeto com seu GitHub e trabalhar de forma local.
 
