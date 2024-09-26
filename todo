@@ -1,0 +1,5 @@
+- Add library to mock data
+- Construct integration to fetch data from mock data library and api file structure
+- Delete mock data from own file
+- Build filter component for list(using local state)
+- Build logic to compare time now to last login and show difference on list

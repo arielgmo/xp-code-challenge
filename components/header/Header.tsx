@@ -1,7 +1,34 @@
 import React from 'react';
-import { Avatar, Flex } from 'antd';
+import { Avatar, Button, Divider, Dropdown, Flex } from 'antd';
 import Text from 'antd/lib/typography/Text';
-import { UserOutlined } from '@ant-design/icons';
+import { LogoutOutlined, UserOutlined } from '@ant-design/icons';
+import type { MenuProps } from 'antd';
+
+const loginMenuItems: MenuProps['items'] = [
+  {
+    key: 'ProfileNavigation',
+    label: (
+      <Flex vertical>
+        <Flex align="flex-start">
+          <UserOutlined className="pt-1" />
+          <Flex vertical justify="flex-start" className="pl-4">
+            <Text>My Profile</Text>
+            <Text className="text-xs text-gray-700">
+              Change settings of your account.
+            </Text>
+          </Flex>
+        </Flex>
+        <Divider className="mt-2 mb-1" />
+      </Flex>
+    ),
+  },
+  {
+    key: 'ProfileNavigation',
+    danger: true,
+    label: <Text className="text-sm">Logout</Text>,
+    icon: <LogoutOutlined />,
+  },
+];
 
 function Header() {
   return (
@@ -15,14 +42,24 @@ function Header() {
           LOGO
         </Text>
         <Flex justify="space-between" align="center">
-          <Text className="text-base text-white mx-7">Menu</Text>
-          <Text className="text-base text-white mx-7">Menu</Text>
-          <Text className="text-base text-white mx-7">Menu</Text>
-          <Text className="text-base text-white mx-7">Menu</Text>
+          <Button type="text">
+            <Text className="text-base text-white mx-7">Menu</Text>
+          </Button>
+          <Button type="text">
+            <Text className="text-base text-white mx-7">Menu</Text>
+          </Button>
+          <Button type="text">
+            <Text className="text-base text-white mx-7">Menu</Text>
+          </Button>
+          <Button type="text">
+            <Text className="text-base text-white mx-7">Menu</Text>
+          </Button>
         </Flex>
       </Flex>
       <Flex justify="flex-end" className="max-w-full">
-        <Avatar size={34} icon={<UserOutlined />} />
+        <Dropdown menu={{ items: loginMenuItems }}>
+          <Avatar size={34} icon={<UserOutlined />} />
+        </Dropdown>
       </Flex>
     </Flex>
   );
